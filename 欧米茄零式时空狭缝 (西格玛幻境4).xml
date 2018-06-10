@@ -64,11 +64,11 @@
 		<v-notice duration="10" style="NOTICE"/>
 	</t>
 
-	<t name="面对(神像)" text="正对" sync="14:28E3:众神之像 starts using 圣母颂" notice-d="Both" notice="正对">
+	<t name="面对(神像)" text="正对" sync="14:28E3:众神之像" notice-d="Both" notice="正对">
 		<v-notice duration="10" style="NOTICE"/>
 	</t>
 
-	<t name="背对(神像)" text="背对" sync="14:28E4:众神之像 starts using 圣母颂" notice-d="Both" notice="背对">
+	<t name="背对(神像)" text="背对" sync="14:28E4:众神之像" notice-d="Both" notice="背对">
 		<v-notice duration="10" style="NOTICE"/>
 	</t>
 
