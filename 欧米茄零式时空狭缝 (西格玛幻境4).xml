@@ -85,19 +85,17 @@
 		<!-- 第一乐章 -->
 		<a time="65" text="第一乐章" style="PURPLE"/>
 		<!-- 第一次神像 -->
-		<a time="66" text="众神之像(一)\n➜ 背面集合,黄圈散开" sync="凯夫卡发动了“众神之像”" icon="在BOSS背面集合.png"/>
+		<a time="66" text="众神之像(一)\n➜ 背面集合,黄圈散开" sync="凯夫卡正在发动“众神之像”" icon="在BOSS背面集合.png"/>
 		<a time="66" text="扩散盾/幕帘" notice="扩散盾/幕帘" notice-o="0" icon="治疗.png"/>
-		<a time="75" text="波动弹x2组" sync="众神之像 starts using 波动弹"/>
-		<a time="75" text="连线x4" icon="连线.png"/>
 		<a time="75" text="分摊" icon="分摊.png"/>
-		<a time="83" text="BOSS传送" sync="凯夫卡正在发动“跳蹦蹦传送”" notice="传送" icon="躲避.png"/>
-		<a time="87" text="恶狠狠毁荡" sync="凯夫卡发动了“恶狠狠毁荡”" notice="战士摆脱"/>
-		<a time="98" text="制裁之光：ST雪仇" sync="凯夫卡发动了“制裁之光”" notice="ST雪仇" style="HEAL" icon="治疗.png"/>
+		<a time="83" text="BOSS传送" notice="传送" icon="躲避.png"/>
+		<a time="87" text="恶狠狠毁荡" notice="战士摆脱"/>
+		<a time="92" text="制裁之光：ST雪仇" sync="凯夫卡正在发动“制裁之光”" notice="ST雪仇" style="HEAL" icon="治疗.png"/>
 		<a time="105" text="魔法储存" sync="凯夫卡正在发动“魔法储存”"/>
 		<a time="109" text="真假雷" sync="凯夫卡正在发动“劈啪啪暴雷”" notice="真假雷" icon="真假.png"/>
 		<a time="116" text="真假冰" sync="凯夫卡正在发动“真假冰”" notice="真假冰" icon="真假.png"/>
 		<!-- 第二次神像 -->
-		<a time="124" text="众神之像(二)\n➜ 注意半场击退" sync="凯夫卡发动了“众神之像”" notice="击退" icon="击退.png"/>
+		<a time="124" text="众神之像(二)\n➜ 注意半场击退" sync="凯夫卡正在发动“众神之像”" notice="击退" icon="击退.png"/>
 		<a time="130" text="冲击波" icon="击退.png"/>
 		<a time="134" text="魔法放出(真假雷冰)" sync="凯夫卡正在发动“魔法放出”" notice="真假雷冰" icon="真假.png"/>
 		<a time="151" text="扑腾腾究极：MT雪仇" sync="凯夫卡正在发动“扑腾腾究极”" notice="MT雪仇" style="HEAL" icon="治疗.png"/>
@@ -106,12 +104,12 @@
 		<!-- 第二乐章 -->
 		<a time="171" text="第二乐章" style="PURPLE"/>
 		<!-- 第三次神像 -->
-		<a time="172" text="众神之像(三)\n➜ MT拉到12点" sync="凯夫卡发动了“众神之像”" notice="MT拉到12点" icon="HOT.png"/>
+		<a time="172" text="众神之像(三)\n➜ MT拉到12点" sync="凯夫卡正在发动“众神之像”" notice="MT拉到12点" icon="HOT.png"/>
 		<a time="177" text="连线处理"/>
 		<a time="188" text="半场即死"/>
 		<a time="190" text="连线处理"/>
 		<a time="195" text="击退" sync="凯夫卡正在发动“疼飕飕暴风”" notice="击退" icon="击退.png"/>
-		<a time="202" text="制裁之光：ST雪仇+摆脱" sync="凯夫卡发动了“制裁之光”" notice="ST雪仇" style="HEAL" icon="治疗.png"/>
+		<a time="202" text="制裁之光：ST雪仇+摆脱" sync="凯夫卡正在发动“制裁之光”" notice="ST雪仇" style="HEAL" icon="治疗.png"/>
 		<a time="216" text="魔法储存" sync="凯夫卡正在发动“魔法储存”" notice="魔法储存"/>
 		<a time="219" text="真假火" sync="凯夫卡正在发动“呼啦啦爆炎”" notice="真假火" icon="真假.png"/>
 		<a time="228" text="扑腾腾究极：MT雪仇" sync="凯夫卡正在发动“扑腾腾究极”" notice="MT雪仇" style="HEAL" icon="治疗.png"/>
@@ -125,26 +123,26 @@
 		<!-- 第三乐章 -->
 		<a time="272" text="第三乐章" style="PURPLE"/>
 		<!-- 第五次神像 -->
-		<a time="273" text="众神之像(五)\n➜ 背面集合,黄圈散开" sync="凯夫卡发动了“众神之像”" notice="背面结合" icon="在BOSS背面集合.png"/>
+		<a time="273" text="众神之像(五)\n➜ 背面集合,黄圈散开" sync="凯夫卡正在发动“众神之像”" notice="背面结合" icon="在BOSS背面集合.png"/>
 		<a time="280" text="堆叠AOE" icon="堆叠AOE.png"/>
 		<a time="284" text="真假邪眼" icon="背对.png"/>
 		<a time="293" text="真假邪眼" icon="背对.png"/>
-		<a time="295" text="BOSS传送" sync="凯夫卡正在发动“跳蹦蹦传送”" />
-		<a time="305" text="制裁之光：ST雪仇+摆脱" sync="凯夫卡发动了“制裁之光”" notice="ST雪仇" style="HEAL" icon="治疗.png"/>
-		<a time="315" text="扑腾腾究极：MT雪仇" sync="凯夫卡正在发动“扑腾腾究极”" notice="MT雪仇" style="HEAL" icon="治疗.png"/>
-		<a time="323" text="魔法储存" sync="凯夫卡正在发动“魔法储存”" />
-		<a time="327" text="真假雷" sync="凯夫卡正在发动“劈啪啪暴雷”" notice="真假雷" icon="真假.png"/>
-		<a time="334" text="真假冰" notice="真假冰" icon="真假.png"/>
+		<a time="305" text="BOSS传送" sync="凯夫卡正在发动“跳蹦蹦传送”" />
+		<a time="315" text="制裁之光：ST雪仇+摆脱" sync="凯夫卡正在发动“制裁之光”" notice="ST雪仇" style="HEAL" icon="治疗.png"/>
+		<a time="325" text="扑腾腾究极：MT雪仇" sync="凯夫卡正在发动“扑腾腾究极”" notice="MT雪仇" style="HEAL" icon="治疗.png"/>
+		<a time="333" text="魔法储存" sync="凯夫卡正在发动“魔法储存”" />
+		<a time="337" text="真假雷" sync="凯夫卡正在发动“劈啪啪暴雷”" notice="真假雷" icon="真假.png"/>
+		<a time="344" text="真假冰" notice="真假冰" icon="真假.png"/>
 		<!-- 第六次神像 -->
-		<a time="342" text="众神之像(六)" sync="凯夫卡发动了“众神之像”" notice="准备真假邪眼" icon="背对.png"/>
-		<a time="345" text="真假邪眼" icon="背对.png"/>
-		<a time="349" text="魔法放出\n➜ 真假雷冰" sync="凯夫卡正在发动“魔法放出”"/>
-		<a time="362" text="超驱动：全减伤干预" sync="凯夫卡正在发动“超驱动”" notice="死刑" style="TANK" icon="死刑.png"/>
-		<a time="369" text="扑腾腾究极1：ST雪仇" notice="ST雪仇" style="HEAL" icon="治疗.png"/>
-		<a time="377" text="扑腾腾究极2：MT雪仇" notice="MT雪仇" style="HEAL" icon="治疗.png"/>
-		<a time="385" text="扑腾腾究极3" style="HEAL" icon="治疗.png"/>
-		<a time="390" text="升天" sync="凯夫卡正在发动“升天”"/>
-		<a time="400" text="制裁之光" sync="凯夫卡发动了“制裁之光”" icon="时间结束.png"/>
+		<a time="352" text="众神之像(六)" sync="凯夫卡发动了“众神之像”" notice="准备真假邪眼" icon="背对.png"/>
+		<a time="355" text="真假邪眼" icon="背对.png"/>
+		<a time="359" text="魔法放出\n➜ 真假雷冰" sync="凯夫卡正在发动“魔法放出”"/>
+		<a time="372" text="超驱动：全减伤干预" sync="凯夫卡正在发动“超驱动”" notice="死刑" style="TANK" icon="死刑.png"/>
+		<a time="379" text="扑腾腾究极1：ST雪仇" notice="ST雪仇" style="HEAL" icon="治疗.png"/>
+		<a time="387" text="扑腾腾究极2：MT雪仇" notice="MT雪仇" style="HEAL" icon="治疗.png"/>
+		<a time="395" text="扑腾腾究极3" style="HEAL" icon="治疗.png"/>
+		<a time="400" text="升天" sync="凯夫卡正在发动“升天”"/>
+		<a time="410" text="制裁之光" sync="凯夫卡发动了“制裁之光”" icon="时间结束.png"/>
 	</s>
 
 	<!-- 本体时间轴 -->
