@@ -176,11 +176,11 @@
 
 	<!-- 本体时间轴 -->
 	<s name="P1">
-		<a time="0" text="无心天使" sync="凯夫卡正在发动“究极”" style="HEAL" icon="强制HP为1.png"/>
-		<a time="6" text="究极：MT雪仇" sync="凯夫卡正在发动“究极”" notice="MT雪仇" style="HEAL" icon="治疗.png"/>
-		<a time="13" text="超驱动：骑士保护MT" sync="凯夫卡正在发动“超驱动”" notice="骑士保护MT" style="TANK" icon="死刑.png"/>/>
-		<a time="21" text="三星环" sync="凯夫卡正在发动“三星”" notice="诗人行吟" icon="躲避.png"/>
-		<a time="31" text="究极" sync="凯夫卡正在发动“究极”" style="HEAL" icon="治疗.png"/>
+		<a time="8" text="无心天使" style="HEAL" icon="强制HP为1.png"/>
+		<a time="14" text="究极：MT雪仇" sync="凯夫卡正在发动“究极”" notice="MT雪仇" style="HEAL" icon="治疗.png"/>
+		<a time="21" text="超驱动：骑士保护MT" sync="凯夫卡正在发动“超驱动”" notice="骑士保护MT" style="TANK" icon="死刑.png"/>/>
+		<a time="29" text="三星环" sync="凯夫卡正在发动“三星”" notice="诗人行吟" icon="躲避.png"/>
+		<a time="39" text="究极" sync="凯夫卡正在发动“究极”" style="HEAL" icon="治疗.png"/>
 		<t text="P2" sync="凯夫卡正在发动“遗弃末世”" notice="ST雪仇幕帘" icon="分支.png" goto="P2"/>
 	</s>
 
