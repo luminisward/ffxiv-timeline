@@ -146,19 +146,19 @@
 	</s>
 
 	<!-- 本体时间轴 -->
-	<t name="去背部(未来)" sync="14:28EE" notice-d="Both" notice="去背面">
+	<t name="去背部(未来)" text="去背面" sync="14:28EE" notice-d="Both" notice="去背面">
 		<v-notice duration="5" icon="在BOSS背面集合.png"/>
 	</t>
 
-	<t name="不动(过去)" sync="14:28F1" notice-d="Both" notice="不动">
+	<t name="不动(过去)" text="不动" sync="14:28F1" notice-d="Both" notice="不动">
 		<v-notice duration="5" icon="在BOSS正面集合.png"/>
 	</t>
 
-	<t name="向外引导" sync="14:28F4" notice-d="Both" notice="auto">
+	<t name="向外引导" text="向外引导" sync="14:28F4" notice-d="Both" notice="auto">
 		<v-notice duration="10" icon="注意.png"/>
 	</t>
 
-	<t name="向内引导" sync="14:28F7" notice-d="Both" notice="auto">
+	<t name="向内引导" text="向内引导" sync="14:28F7" notice-d="Both" notice="auto">
 		<v-notice duration="10" icon="注意.png"/>
 	</t>
 
