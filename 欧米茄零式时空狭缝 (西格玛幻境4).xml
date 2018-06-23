@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <timeline>
 	<name>欧米茄零式时空狭缝 (西格玛幻境4)</name>
-	<rev>r8</rev>
+	<rev>r9</rev>
 	<description>作者: CanisMinor | ID: 男孩纸榨汁机(紫水) | 讨论群: 246243038</description>
 	<zone>欧米茄零式时空狭缝 (西格玛幻境4)</zone>
 	<locale>CN</locale>
@@ -215,10 +215,10 @@
 	<s name="P5">
 		<a time="000" text="三星环" sync="凯夫卡正在发动“三星”" notice="三星环" notice-o="1"/>
 		<a time="009" text="单翅膀" sync="凯夫卡正在发动“破坏之翼”" style="躲避.png"/>
-		<a time="015" text="究极" sync="凯夫卡正在发动“究极”" notice="MT雪仇" style="HEAL" icon="治疗.png"/>
+		<a time="015" text="究极：MT雪仇" sync="凯夫卡正在发动“究极”" notice="MT雪仇" style="HEAL" icon="治疗.png"/>
 		<a time="033" text="大三角" sync="凯夫卡正在发动“异三角”" notice="大三角" icon="躲避.png"/>
 		<a time="040" text="过去/未来" icon="在BOSS背面集合.png"/>
-		<a time="053" text="双翅膀\n➜ 战士：铁壁+复仇\n➜ 骑士：铁壁+壁垒+护栏" notice="战士远离" notice-o="-10" icon="注意.png"/>
+		<a time="053" text="双翅膀\n➜ 战士：铁壁+复仇\n➜ 骑士：铁壁+壁垒+护栏" notice="双翅膀" notice-o="-10" icon="注意.png"/>
 		<a time="058" text="终末双腕\n➜ 战士：直觉\n➜ 近战：牵制" sync="凯夫卡正在发动“终末双腕”" notice="近战牵制" icon="分摊.png"/>
 		<a time="066" text="超驱动：盾阵" sync="凯夫卡正在发动“超驱动”" notice="盾阵" style="TANK" icon="死刑.png"/>/>
 		<a time="074" text="究极\n➜ 换T，拉回中间朝北" sync="凯夫卡正在发动“究极”" notice="换T" style="HEAL" icon="治疗.png"/>
