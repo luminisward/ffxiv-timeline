@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <timeline>
 	<name>欧米茄零式时空狭缝 (西格玛幻境4)</name>
-	<rev>r9</rev>
+	<rev>r10</rev>
 	<description>作者: CanisMinor | ID: 男孩纸榨汁机(紫水) | 讨论群: 246243038</description>
 	<zone>欧米茄零式时空狭缝 (西格玛幻境4)</zone>
 	<locale>CN</locale>
@@ -220,17 +220,17 @@
 		<a time="040" text="过去/未来" icon="在BOSS背面集合.png"/>
 		<a time="053" text="双翅膀\n➜ 战士：铁壁+复仇\n➜ 骑士：铁壁+壁垒+护栏" notice="双翅膀" notice-o="-10" icon="注意.png"/>
 		<a time="058" text="终末双腕\n➜ 战士：直觉\n➜ 近战：牵制" sync="凯夫卡正在发动“终末双腕”" notice="近战牵制" icon="分摊.png"/>
-		<a time="066" text="超驱动：盾阵" sync="凯夫卡正在发动“超驱动”" notice="盾阵" style="TANK" icon="死刑.png"/>/>
-		<a time="074" text="究极\n➜ 换T，拉回中间朝北" sync="凯夫卡正在发动“究极”" notice="换T" style="HEAL" icon="治疗.png"/>
-		<t text="P6" sync="凯夫卡正在发动“遗弃末世”" notice="ST雪仇，摆脱幕帘" goto="P6"/>
+		<a time="066" text="超驱动：盾阵" sync="凯夫卡正在发动“超驱动”" style="TANK" icon="死刑.png"/>/>
+		<a time="074" text="究极：摆脱" sync="凯夫卡正在发动“究极”" notice="摆脱" style="HEAL" icon="治疗.png"/>
+		<t text="P6" sync="凯夫卡正在发动“遗弃末世”" notice="ST雪仇，幕帘" goto="P6"/>
 	</s>
 
 	<s name="P6">
-		<a time="000" text="遗弃末世\n➜ ST雪仇，摆脱幕帘➜ 击退踩塔准备" notice="击退踩塔准备" notice-o="1"/>
-		<a time="015" text="究极" sync="凯夫卡正在发动“究极”" notice="AOE" style="HEAL" icon="治疗.png"/>
+		<a time="000" text="遗弃末世\n➜ ST雪仇，幕帘➜ 击退踩塔准备" notice="击退踩塔准备" notice-o="1"/>
+		<a time="015" text="究极：MT雪仇" sync="凯夫卡正在发动“究极”" notice="MT雪仇" style="HEAL" icon="治疗.png"/>
 		<a time="021" text="终末双腕\n➜ 死斗" sync="凯夫卡正在发动“终末双腕”" notice="死斗" style="TANK" icon="无敌.png"/>
-		<a time="027" text="睡眠/诱惑" notice="auto"/>
-		<a time="034" text="究极" sync="凯夫卡正在发动“究极”" notice="MT雪仇" style="HEAL" icon="治疗.png"/>
+		<a time="027" text="睡眠/诱惑"/>
+		<a time="034" text="究极" sync="凯夫卡正在发动“究极”" style="HEAL" icon="治疗.png"/>
 		<a time="042" text="无心大天使" sync="凯夫卡正在发动“无心大天使”" style="HEAL" icon="强制HP为1.png"/>
 		<a time="055" text="双翅膀\n➜ 铁壁" notice="双翅膀" notice-o="-10" icon="注意.png"/>
 		<a time="060" text="究极：面朝东" sync="凯夫卡正在发动“究极”" notice="Boss面朝东" style="HEAL" icon="治疗.png"/>
