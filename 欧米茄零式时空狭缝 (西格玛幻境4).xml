@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <timeline>
 	<name>欧米茄零式时空狭缝 (西格玛幻境4)</name>
-	<rev>r10</rev>
+	<rev>r11</rev>
 	<description>作者: CanisMinor | ID: 男孩纸榨汁机(紫水) | 讨论群: 246243038</description>
 	<zone>欧米茄零式时空狭缝 (西格玛幻境4)</zone>
 	<locale>CN</locale>
@@ -172,103 +172,88 @@
 
 	<!-- 本体时间轴 -->
 	<s name="P1">
-		<a time="8" text="无心天使" style="HEAL" icon="强制HP为1.png"/>
-		<a time="14" text="究极：MT雪仇" sync="凯夫卡正在发动“究极”" notice="MT雪仇" style="HEAL" icon="治疗.png"/>
-		<a time="21" text="超驱动：骑士保护MT" sync="凯夫卡正在发动“超驱动”" notice="骑士保护MT" style="TANK" icon="死刑.png"/>/>
-		<a time="29" text="三星环" sync="凯夫卡正在发动“三星”" notice="诗人行吟" icon="躲避.png"/>
-		<a time="39" text="究极" sync="凯夫卡正在发动“究极”" style="HEAL" icon="治疗.png"/>
-		<t text="P2" sync="凯夫卡正在发动“遗弃末世”" notice="ST雪仇幕帘" icon="分支.png" goto="P2"/>
-	</s>
+		<a time="6" text="究极：MT雪仇" sync="凯夫卡正在发动“究极”" notice="MT雪仇" style="HEAL" icon="治疗.png"/>
+		<a time="13" text="超驱动：骑士保护MT" sync="凯夫卡正在发动“超驱动”" notice="骑士保护MT" style="TANK" icon="死刑.png"/>/>
+		<a time="21" text="三星环" sync="凯夫卡正在发动“三星”" notice="诗人行吟" icon="躲避.png"/>
+		<a time="31" text="究极" sync="凯夫卡正在发动“究极”" style="HEAL" icon="治疗.png"/>
+		<a time="41" text="遗弃末世：ST雪仇幕帘"  sync="凯夫卡正在发动“遗弃末世”" notice="ST雪仇幕帘" icon="治疗.png"/>
 
-	<s name="P2">
-		<a time="000" text="遗弃末世：ST雪仇幕帘" icon="治疗.png"/>
-		<a time="011" text="无心大天使：地神渐愈扩散盾+直觉摆脱" sync="凯夫卡正在发动“无心大天使”" notice="地神渐愈扩散盾" style="HEAL" icon="强制HP为1.png"/>
-		<a time="025" text="破坏之翼\n➜ 战士死斗，骑士预警" sync="凯夫卡正在发动“破坏之翼”" notice="双翅膀"/>
-		<a time="031" text="究极" sync="凯夫卡正在发动“究极”" style="HEAL" icon="治疗.png"/>
-		<a time="041" text="无心大天使" sync="凯夫卡正在发动“无心大天使”" style="HEAL" icon="强制HP为1.png"/>
-		<a time="056" text="制裁之光\n➜ MT雪仇" sync="凯夫卡正在发动“制裁之光”" notice="MT雪仇" style="TANK" icon="换T.png"/>
-		<t text="P3" sync="凯夫卡正在发动“异三角”" notice="小三角,看顺序" icon="分支.png" goto="P3"/>
-	</s>
+		<!-- P2 -->
+		<a time="52" text="无心大天使：地神渐愈扩散盾+直觉摆脱" sync="凯夫卡正在发动“无心大天使”" notice="地神渐愈扩散盾" style="HEAL" icon="强制HP为1.png"/>
+		<a time="66" text="破坏之翼\n➜ 战士死斗，骑士预警" sync="凯夫卡正在发动“破坏之翼”" notice="双翅膀"/>
+		<a time="72" text="究极" sync="凯夫卡正在发动“究极”" style="HEAL" icon="治疗.png"/>
+		<a time="82" text="无心大天使" sync="凯夫卡正在发动“无心大天使”" style="HEAL" icon="强制HP为1.png"/>
+		<a time="97" text="制裁之光\n➜ MT雪仇" sync="凯夫卡正在发动“制裁之光”" notice="MT雪仇" style="TANK" icon="换T.png"/>
 
-	<s name="P3">
-		<a time="000" text="小三角(看顺序)" icon="躲避.png"/>
-		<a time="006" text="单翅膀" sync="凯夫卡正在发动“破坏之翼”" icon="躲避.png"/>
-		<a time="018" text="双翅膀：盾阵铁壁战栗复仇" notice="双翅膀" notice-o="-10" icon="注意.png"/>
-		<a time="035" text="究极" sync="凯夫卡正在发动“究极”" notice="ST雪仇" style="HEAL" icon="治疗.png"/>
-		<a time="042" text="过去/未来\n➜ 背面集合" notice="换T" icon="在BOSS背面集合.png"/>
-		<a time="053" text="终末双腕" sync="凯夫卡正在发动“终末双腕”" notice="无敌" style="TANK" icon="无敌.png"/>
-		<a time="060" text="超驱动" sync="凯夫卡正在发动“超驱动”" style="TANK" icon="死刑.png"/>
-		<a time="067" text="究极" sync="凯夫卡正在发动“究极”" notice="AOE" style="HEAL" icon="治疗.png"/>
-		<a time="083" text="遗弃末世\n➜ 直觉摆脱，MT雪仇" sync="凯夫卡正在发动“遗弃末世”" notice="直觉摆脱，MT雪仇" notice-o="-7" icon="治疗.png"/>
-		<t text="P4\n➜ 远程BD诱导(给再生)\n➜ T奶12踩塔\n➜ 其余C等黄圈" sync="凯夫卡正在发动“妖星乱舞”" icon="分支.png" goto="P4"/>
-	</s>
+		<!-- P3 -->
+		<a time="112" text="小三角(看顺序)" sync="凯夫卡正在发动“异三角”" notice="小三角" icon="躲避.png"/>
+		<a time="118" text="单翅膀" sync="凯夫卡正在发动“破坏之翼”" icon="躲避.png"/>
+		<a time="130" text="双翅膀：盾阵铁壁战栗复仇" notice="双翅膀" notice-o="-10" icon="注意.png"/>
+		<a time="147" text="究极" sync="凯夫卡正在发动“究极”" notice="ST雪仇" style="HEAL" icon="治疗.png"/>
+		<a time="154" text="过去/未来\n➜ 背面集合" notice="换T" notice-o="0" icon="在BOSS背面集合.png"/>
+		<a time="165" text="终末双腕" sync="凯夫卡正在发动“终末双腕”" notice="无敌" notice-o="0" style="TANK" icon="无敌.png"/>
+		<a time="172" text="超驱动" sync="凯夫卡正在发动“超驱动”" style="TANK" icon="死刑.png"/>
+		<a time="179" text="究极" sync="凯夫卡正在发动“究极”" style="HEAL" icon="治疗.png"/>
 
-	<s name="P4">
-		<a time="000" text="妖星乱舞" notice="幕帘" icon="注意.png"/>
-		<a time="005" text="过去/未来" icon="注意.png"/>
-		<a time="014" text="消灭之脚\n➜ 引导AOE,注意面向" sync="凯夫卡正在发动“消灭之脚”" icon="注意.png"/>
-		<a time="019" text="陨石AOE" sync="凯夫卡:2905" style="TANK" icon="治疗.png"/>
-		<a time="023" text="制裁之光➜ ST雪仇" sync="凯夫卡正在发动“制裁之光”" notice="ST雪仇" style="TANK" icon="治疗.png"/>
-		<t text="P5" sync="凯夫卡正在发动“三星”" goto="P5"/>
-	</s>
+		<!-- P4 -->
+		<a time="195" text="遗弃末世\n➜ 直觉摆脱，MT雪仇" sync="凯夫卡正在发动“遗弃末世”" notice="直觉摆脱幕帘，MT雪仇" notice-o="-7" icon="治疗.png"/>
+		<a time="204" text="妖星乱舞" sync="凯夫卡正在发动“妖星乱舞”" icon="注意.png" />
+		<a time="209" text="过去/未来" icon="注意.png"/>
+		<a time="218" text="消灭之脚\n➜ 引导AOE,注意面向" sync="凯夫卡正在发动“消灭之脚”" icon="注意.png"/>
+		<a time="223" text="陨石AOE" style="TANK" icon="治疗.png"/>
+		<a time="227" text="制裁之光➜ ST雪仇" sync="凯夫卡正在发动“制裁之光”" notice="ST雪仇" style="TANK" icon="治疗.png"/>
 
-	<s name="P5">
-		<a time="000" text="三星环" sync="凯夫卡正在发动“三星”" notice="三星环" notice-o="1"/>
-		<a time="009" text="单翅膀" sync="凯夫卡正在发动“破坏之翼”" style="躲避.png"/>
-		<a time="015" text="究极：MT雪仇" sync="凯夫卡正在发动“究极”" notice="MT雪仇" style="HEAL" icon="治疗.png"/>
-		<a time="033" text="大三角" sync="凯夫卡正在发动“异三角”" notice="大三角" icon="躲避.png"/>
-		<a time="040" text="过去/未来" icon="在BOSS背面集合.png"/>
-		<a time="053" text="双翅膀\n➜ 战士：铁壁+复仇\n➜ 骑士：铁壁+壁垒+护栏" notice="双翅膀" notice-o="-10" icon="注意.png"/>
-		<a time="058" text="终末双腕\n➜ 战士：直觉\n➜ 近战：牵制" sync="凯夫卡正在发动“终末双腕”" notice="近战牵制" icon="分摊.png"/>
-		<a time="066" text="超驱动：盾阵" sync="凯夫卡正在发动“超驱动”" style="TANK" icon="死刑.png"/>/>
-		<a time="074" text="究极：摆脱" sync="凯夫卡正在发动“究极”" notice="摆脱" style="HEAL" icon="治疗.png"/>
-		<t text="P6" sync="凯夫卡正在发动“遗弃末世”" notice="ST雪仇，幕帘" goto="P6"/>
-	</s>
+		<!-- P5 -->
+		<a time="245" text="三星环" sync="凯夫卡正在发动“三星”" notice="三星环" notice-o="1"/>
+		<a time="254" text="单翅膀" sync="凯夫卡正在发动“破坏之翼”" style="躲避.png"/>
+		<a time="260" text="究极：MT雪仇" sync="凯夫卡正在发动“究极”" notice="MT雪仇" style="HEAL" icon="治疗.png"/>
+		<a time="278" text="大三角" sync="凯夫卡正在发动“异三角”" notice="大三角" icon="躲避.png"/>
+		<a time="285" text="过去/未来" icon="在BOSS背面集合.png"/>
+		<a time="298" text="双翅膀\n➜ 战士：铁壁+复仇\n➜ 骑士：铁壁+壁垒" notice="双翅膀" notice-o="-10" icon="注意.png"/>
+		<a time="303" text="终末双腕\n➜ 战士：直觉\n➜ 近战：牵制" sync="凯夫卡正在发动“终末双腕”" notice="牵制" icon="分摊.png"/>
+		<a time="311" text="超驱动" sync="凯夫卡正在发动“超驱动”" style="TANK" icon="死刑.png"/>/>
+		<a time="319" text="究极：摆脱" sync="凯夫卡正在发动“究极”" notice="摆脱" style="HEAL" icon="治疗.png"/>
+		<a time="334" text="遗弃末世\n➜ ST雪仇，幕帘" sync="凯夫卡正在发动“遗弃末世”" notice="ST雪仇，幕帘" goto="P6"/>
 
-	<s name="P6">
-		<a time="000" text="遗弃末世\n➜ ST雪仇，幕帘➜ 击退踩塔准备" notice="击退踩塔准备" notice-o="1"/>
-		<a time="015" text="究极：MT雪仇" sync="凯夫卡正在发动“究极”" notice="MT雪仇" style="HEAL" icon="治疗.png"/>
-		<a time="021" text="终末双腕\n➜ 死斗" sync="凯夫卡正在发动“终末双腕”" notice="死斗" style="TANK" icon="无敌.png"/>
-		<a time="027" text="睡眠/诱惑"/>
-		<a time="034" text="究极" sync="凯夫卡正在发动“究极”" style="HEAL" icon="治疗.png"/>
-		<a time="042" text="无心大天使" sync="凯夫卡正在发动“无心大天使”" style="HEAL" icon="强制HP为1.png"/>
-		<a time="055" text="双翅膀\n➜ 铁壁" notice="双翅膀" notice-o="-10" icon="注意.png"/>
-		<a time="060" text="究极：面朝东" sync="凯夫卡正在发动“究极”" notice="Boss面朝东" style="HEAL" icon="治疗.png"/>
-		<a time="067" text="单翅膀" notice="看神像找安全点" sync="凯夫卡正在发动“破坏之翼”"/>
-		<a time="073" text="制裁之光➜ ST雪仇，摆脱" sync="凯夫卡正在发动“制裁之光”" notice="ST雪仇，摆脱" style="TANK" icon="治疗.png"/>
-		<t text="P7" sync="凯夫卡正在发动“异三角”" goto="P7"/>
-	</s>
+		<!-- P6 -->
+		<a time="349" text="究极：MT雪仇" sync="凯夫卡正在发动“究极”" notice="MT雪仇" style="HEAL" icon="治疗.png"/>
+		<a time="355" text="终末双腕\n➜ 死斗" sync="凯夫卡正在发动“终末双腕”" notice="死斗" style="TANK" icon="无敌.png"/>
+		<a time="361" text="睡眠/诱惑"/>
+		<a time="368" text="究极" sync="凯夫卡正在发动“究极”" style="HEAL" icon="治疗.png"/>
+		<a time="376" text="无心大天使" sync="凯夫卡正在发动“无心大天使”" style="HEAL" icon="强制HP为1.png"/>
+		<a time="389" text="双翅膀\n➜ 铁壁战栗" notice="双翅膀" notice-o="-10" icon="注意.png"/>
+		<a time="394" text="究极：面朝东" sync="凯夫卡正在发动“究极”" notice="Boss面朝东" style="HEAL" icon="治疗.png"/>
+		<a time="401" text="单翅膀" notice="看神像找安全点" sync="凯夫卡正在发动“破坏之翼”"/>
+		<a time="407" text="制裁之光➜ ST雪仇，摆脱" sync="凯夫卡正在发动“制裁之光”" notice="ST雪仇，摆脱" style="TANK" icon="治疗.png"/>
 
-	<s name="P7">
-		<a time="000" text="小三角" notice="看顺序" notice-o="1" icon="躲避.png"/>
-		<a time="006" text="单翅膀" notice="AOE"/>
-		<a time="017" text="双翅膀\n➜ MT复仇，ST预警" notice="双翅膀" notice-o="-10" icon="注意.png"/>
-		<a time="023" text="终末双腕\n➜ MT雪仇复仇直觉\n➜ ST预警盾阵\n➜ 近战牵制" sync="凯夫卡正在发动“终末双腕”" notice="全减伤牵制，MT雪仇" icon="分摊.png"/>
-		<a time="040" text="大三角\n➜ 检查中央小三角" sync="凯夫卡正在发动“异三角”" notice="站中心或去空地" icon="躲避.png"/>
-		<a time="048" text="过去/未来：幕帘" notice="骑士幕帘" icon="在BOSS背面集合.png"/>
-		<a time="060" text="超驱动" sync="凯夫卡正在发动“超驱动”" notice="铁壁保护" style="TANK" icon="死刑.png"/>
-		<a time="067" text="究极(1)" sync="凯夫卡正在发动“究极”" notice="ST雪仇" style="HEAL" icon="治疗.png"/>
-		<a time="075" text="究极(2)\n➜ 拉回中间朝北" sync="凯夫卡正在发动“究极”" notice="拉回中间朝北" style="HEAL" icon="治疗.png"/>
-		<t text="P8" sync="凯夫卡正在发动“遗弃末世”" notice="MT雪仇" goto="P8"/>
-	</s>
+		<!-- P7 -->
+		<a time="425" text="小三角" sync="凯夫卡正在发动“异三角”" notice="小三角" notice-o="1" icon="躲避.png"/>
+		<a time="431" text="单翅膀" notice="AOE"/>
+		<a time="442" text="双翅膀\n➜ MT复仇，ST预警" notice="双翅膀" notice-o="-10" icon="注意.png"/>
+		<a time="448" text="终末双腕\n➜ MT雪仇\n➜ 近战牵制" sync="凯夫卡正在发动“终末双腕”" notice="全减伤牵制，MT雪仇" icon="分摊.png"/>
+		<a time="465" text="大三角" sync="凯夫卡正在发动“异三角”" notice="大三角" icon="躲避.png"/>
+		<a time="473" text="过去/未来：幕帘" notice="骑士幕帘" icon="在BOSS背面集合.png"/>
+		<a time="485" text="超驱动：骑士铁壁保护" sync="凯夫卡正在发动“超驱动”" notice="铁壁保护" style="TANK" icon="死刑.png"/>
+		<a time="492" text="究极(1)：ST雪仇" sync="凯夫卡正在发动“究极”" notice="ST雪仇" style="HEAL" icon="治疗.png"/>
+		<a time="500" text="究极(2)" sync="凯夫卡正在发动“究极”" style="HEAL" icon="治疗.png"/>
 
-	<s name="P8">
-		<a time="000" text="遗弃末世\n➜ MT雪仇" notice="击退踩塔准备" notice-o="1"/>
-		<a time="015" text="究极" sync="凯夫卡正在发动“究极”" notice="AOE" style="HEAL" icon="治疗.png"/>
-		<a time="016" text="击退" notice="击退" icon="击退.png"/>
-		<a time="019" text="踩塔" notice="踩塔" icon="集合.png"/>
-		<a time="021" text="终末双腕\n➜ 死斗" sync="凯夫卡正在发动“终末双腕”" notice="死斗" icon="分摊.png"/>
-		<a time="027" text="睡眠/诱惑"/>
-		<a time="034" text="究极：ST雪仇" sync="凯夫卡正在发动“究极”" notice="ST雪仇" style="HEAL" icon="治疗.png"/>
-		<a time="042" text="无心大天使" sync="凯夫卡正在发动“无心大天使”" style="HEAL" icon="强制HP为1.png"/>
-		<a time="055" text="双翅膀\n➜ MT朝场外,ST跑远\n➜ 其余背靠中间" notice="双翅膀，减伤全开" notice-o="-10" icon="注意.png"/>
-		<a time="060" text="究极(1)：面朝东" sync="凯夫卡正在发动“究极”" notice="Boss面朝东" style="HEAL" icon="治疗.png"/>
-		<a time="067" text="单翅膀" sync="凯夫卡正在发动“破坏之翼”" icon="躲避.png"/>
-		<a time="074" text="究极(2)：MT雪仇，幕帘" sync="凯夫卡正在发动“究极”" notice="MT雪仇" style="HEAL" icon="治疗.png"/>
-		<a time="082" text="究极(3)：ST雪仇" sync="凯夫卡正在发动“究极”" notice="ST雪仇" style="HEAL" icon="治疗.png"/>
-		<a time="090" text="究极(4)：摆脱" sync="凯夫卡正在发动“究极”" notice="摆脱" style="HEAL" icon="治疗.png"/>
-		<a time="098" text="究极(5)" sync="凯夫卡正在发动“究极”" notice="AOE" style="HEAL" icon="治疗.png"/>
-		<a time="106" text="制裁之光(狂暴读条)" sync="凯夫卡正在发动“制裁之光" notice="狂暴读条" icon="注意.png"/>
-		<a time="116" text="狂暴" icon="时间结束.png"/>
+		<!-- P8 -->
+		<a time="518" text="遗弃末世\n➜ MT雪仇" sync="凯夫卡正在发动“遗弃末世”" notice="MT雪仇"/>
+		<a time="533" text="究极" sync="凯夫卡正在发动“究极”" style="HEAL" icon="治疗.png"/>
+		<a time="534" text="击退" icon="击退.png"/>
+		<a time="537" text="踩塔" icon="集合.png"/>
+		<a time="539" text="终末双腕\n➜ 死斗" sync="凯夫卡正在发动“终末双腕”" notice="死斗" icon="分摊.png"/>
+		<a time="545" text="睡眠/诱惑"/>
+		<a time="552" text="究极：ST雪仇" sync="凯夫卡正在发动“究极”" notice="ST雪仇" style="HEAL" icon="治疗.png"/>
+		<a time="560" text="无心大天使" sync="凯夫卡正在发动“无心大天使”" style="HEAL" icon="强制HP为1.png"/>
+		<a time="573" text="双翅膀" notice="双翅膀，减伤全开" notice-o="-10" icon="注意.png"/>
+		<a time="578" text="究极(1)：面朝东" sync="凯夫卡正在发动“究极”" notice="Boss面朝东" style="HEAL" icon="治疗.png"/>
+		<a time="585" text="单翅膀" sync="凯夫卡正在发动“破坏之翼”" icon="躲避.png"/>
+		<a time="592" text="究极(2)：MT雪仇，幕帘" sync="凯夫卡正在发动“究极”" notice="MT雪仇" style="HEAL" icon="治疗.png"/>
+		<a time="600" text="究极(3)：ST雪仇" sync="凯夫卡正在发动“究极”" notice="ST雪仇" style="HEAL" icon="治疗.png"/>
+		<a time="608" text="究极(4)：摆脱" sync="凯夫卡正在发动“究极”" notice="摆脱" style="HEAL" icon="治疗.png"/>
+		<a time="616" text="究极(5)" sync="凯夫卡正在发动“究极”" notice="AOE" style="HEAL" icon="治疗.png"/>
+		<a time="624" text="制裁之光(狂暴读条)" sync="凯夫卡正在发动“制裁之光" notice="狂暴读条" icon="注意.png"/>
+		<a time="634" text="狂暴" icon="时间结束.png"/>
 	</s>
 </timeline>
