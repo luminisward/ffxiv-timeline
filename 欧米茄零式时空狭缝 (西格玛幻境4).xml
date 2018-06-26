@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <timeline>
 	<name>欧米茄零式时空狭缝 (西格玛幻境4)</name>
-	<rev>r11</rev>
+	<rev>r12</rev>
 	<description>作者: CanisMinor | ID: 男孩纸榨汁机(紫水) | 讨论群: 246243038</description>
 	<zone>欧米茄零式时空狭缝 (西格玛幻境4)</zone>
 	<locale>CN</locale>
@@ -147,19 +147,19 @@
 
 	<!-- 本体时间轴 -->
 	<t name="去背部(未来)" text="去背面" sync="14:28EE" notice-d="Both" notice="去背面">
-		<v-notice duration="5" icon="在BOSS背面集合.png"/>
+		<v-notice duration="5" icon="在BOSS背面集合.png" style="NOTICE"/>
 	</t>
 
 	<t name="不动(过去)" text="不动" sync="14:28F1" notice-d="Both" notice="不动">
-		<v-notice duration="5" icon="在BOSS正面集合.png"/>
+		<v-notice duration="5" icon="在BOSS正面集合.png" style="NOTICE"/>
 	</t>
 
 	<t name="向外引导" text="向外引导" sync="14:28F4" notice-d="Both" notice="auto">
-		<v-notice duration="10" icon="注意.png"/>
+		<v-notice duration="10" icon="注意.png" style="NOTICE"/>
 	</t>
 
 	<t name="向内引导" text="向内引导" sync="14:28F7" notice-d="Both" notice="auto">
-		<v-notice duration="10" icon="注意.png"/>
+		<v-notice duration="10" icon="注意.png" style="NOTICE"/>
 	</t>
 
 	<t name="左翅膀" sync="14:28FE" notice="左翅膀">
