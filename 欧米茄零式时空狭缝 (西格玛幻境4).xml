@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <timeline>
 	<name>欧米茄零式时空狭缝 (西格玛幻境4)</name>
-	<rev>r12</rev>
+	<rev>r13</rev>
 	<description>作者: CanisMinor | ID: 男孩纸榨汁机(紫水) | 讨论群: 246243038</description>
 	<zone>欧米茄零式时空狭缝 (西格玛幻境4)</zone>
 	<locale>CN</locale>
@@ -239,12 +239,12 @@
 
 		<!-- P8 -->
 		<a time="518" text="遗弃末世\n➜ MT雪仇" sync="凯夫卡正在发动“遗弃末世”" notice="MT雪仇"/>
-		<a time="533" text="究极" sync="凯夫卡正在发动“究极”" style="HEAL" icon="治疗.png"/>
+		<a time="533" text="究极：ST雪仇" sync="凯夫卡正在发动“究极”" notice="ST雪仇" style="HEAL" icon="治疗.png"/>
 		<a time="534" text="击退" icon="击退.png"/>
 		<a time="537" text="踩塔" icon="集合.png"/>
 		<a time="539" text="终末双腕\n➜ 死斗" sync="凯夫卡正在发动“终末双腕”" notice="死斗" icon="分摊.png"/>
 		<a time="545" text="睡眠/诱惑"/>
-		<a time="552" text="究极：ST雪仇" sync="凯夫卡正在发动“究极”" notice="ST雪仇" style="HEAL" icon="治疗.png"/>
+		<a time="552" text="究极" sync="凯夫卡正在发动“究极”" style="HEAL" icon="治疗.png"/>
 		<a time="560" text="无心大天使" sync="凯夫卡正在发动“无心大天使”" style="HEAL" icon="强制HP为1.png"/>
 		<a time="573" text="双翅膀" notice="双翅膀，减伤全开" notice-o="-10" icon="注意.png"/>
 		<a time="578" text="究极(1)：面朝东" sync="凯夫卡正在发动“究极”" notice="Boss面朝东" style="HEAL" icon="治疗.png"/>
